@@ -1,4 +1,4 @@
-<!-- Visualization Page II (Humidity) -->
+<!-- Comparison Page -->
 <!doctype html>
 <html lang="en">
 <head>
@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Humidity</title>
+    <title>Comparison</title>
 </head>
 <body>
     <!-- Bootstrap JavaScript -->
@@ -51,44 +51,38 @@
         <!-- Create Overall Grid -->
     <div class="container">
         <div class="row">
-            <div class="col-lg-7 col-md-12">
-                <!-- Left Content Box -->
-                <div class="box">
-                    <h3 class="title">Humidity</h3>
-                    <hr>
-                    <img src="../Assets/Humidity_vs_Latitude.png" class="vizualization rounded float-left" alt="Humidity Graph">
-                    <p>There seems to be little to no correlation between humidity and Latitude.</p>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-12">
-                <!-- Right Content Box -->
-                <div class="box">
-                    <h3 class="title">Visualizations</h3>
-                    <hr>
-                    <div class="container">
-                        <div class="row" style="padding-bottom: 30px;">
-                            <div class="col-6">
-                                <a href="Max_Temp.html">
-                                <img class="panel" src="../Assets/Max_Temp_vs_Latitude.png" alt="Max Temperature Graph">
-                                </a>
-                            </div>
-                            <div class="col-6">
-                                <a href="Humidity.html">
-                                <img class="panel" src="../Assets/Humidity_vs_Latitude.png" alt="Humidity Graph">
-                                </a>
-                            </div>
+            <!-- Content Box -->
+            <div class="box">
+                <h3 class="title">Comparison: Latitude vs. X</h3>
+                <hr>
+                <p><strong>Click</strong> on any plot to get an in-depth analysis</p>
+                <div class="container" style="padding-bottom: 10px;">
+                    <div class="row">
+                        <div class="col-lg-6" style="padding-bottom: 30px;">
+                            <div class="title">vs. Max Temperature</div>
+                            <a href="Max_Temp.html">
+                                <img class="panel" src="Assets/Max_Temp_vs_Latitude.png" alt="Max Temperature Graph">
+                            </a>
                         </div>
-                        <div class="row" style="padding-bottom: 30px;">
-                            <div class="col-6">
-                                <a href="Cloudiness.html">
-                                <img class="panel" src="../Assets/Cloudiness_vs_Latitude.png" alt="Cloudiness Graph">
-                                </a>
-                            </div>
-                            <div class="col-6">
-                                <a href="Wind_Speed.html">
-                                    <img class="panel" src="../Assets/Wind_Speed_vs_Latitude.png" alt="Wind Speed Graph">
-                                </a>
-                            </div>
+                        <div class="col-lg-6" style="padding-bottom: 30px;">
+                            <div class="title">vs. Humidity</div>
+                            <a href="Humidity.html">
+                                <img class="panel" src="Assets/Humidity_vs_Latitude.png" alt="Humidity Graph">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6" style="padding-bottom: 30px;">
+                            <div class="title">vs. Cloudiness</div>
+                            <a href="Cloudiness.html">
+                                <img class="panel" src="Assets/Cloudiness_vs_Latitude.png" alt="Cloudiness Graph">
+                            </a>
+                        </div>
+                        <div class="col-lg-6" style="padding-bottom: 30px;">
+                            <div class="title">vs. Wind Speed</div>
+                            <a href="Wind_Speed.html">
+                                <img class="panel" src="Assets/Wind_Speed_vs_Latitude.png" alt="Wind Speed Graph">
+                            </a>
                         </div>
                     </div>
                 </div>

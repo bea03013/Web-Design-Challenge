@@ -1,4 +1,4 @@
-<!-- Landing/Home Page -->
+<!-- Visualization Page III (Cloudiness) -->
 <!doctype html>
 <html lang="en">
 <head>
@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Landing Page</title>
+    <title>Cloudines</title>
 </head>
 <body>
     <!-- Bootstrap JavaScript -->
@@ -53,15 +53,11 @@
         <div class="row">
             <div class="col-lg-7 col-md-12">
                 <!-- Left Content Box -->
-                <div class="box" style="padding-bottom: 20px;">
-                    <h3 class="title">Summary: Latitude vs. X</h3>
+                <div class="box" style="padding-bottom: 120px;">
+                    <h3 class="title">Cloudiness</h3>
                     <hr>
-                    <img src="../Assets/Max_Temp_vs_Latitude.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
-                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. 
-                    To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. 
-                    Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and
-                    visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                    <img src="Assets/Cloudiness_vs_Latitude.png" class="vizualization rounded float-left" alt="Cloudiness Graph">
+                    <p>There is no strong relationship between latitude and cloudiness. </p>
                 </div>
             </div>
             <div class="col-lg-5 col-md-12">
@@ -73,24 +69,24 @@
                         <div class="row" style="padding-bottom: 30px;">
                             <div class="col-6">
                                 <a href="Max_Temp.html">
-                                <img class="panel" src="../Assets/Max_Temp_vs_Latitude.png" alt="Max Temperature Graph">
+                                <img class="panel" src="Assets/Max_Temp_vs_Latitude.png" alt="Max Temperature Graph">
                                 </a>
                             </div>
                             <div class="col-6">
                                 <a href="Humidity.html">
-                                <img class="panel" src="../Assets/Humidity_vs_Latitude.png" alt="Humidity Graph">
+                                <img class="panel" src="Assets/Humidity_vs_Latitude.png" alt="Humidity Graph">
                                 </a>
                             </div>
                         </div>
                         <div class="row" style="padding-bottom: 30px;">
                             <div class="col-6">
                                 <a href="Cloudiness.html">
-                                <img class="panel" src="../Assets/Cloudiness_vs_Latitude.png" alt="Cloudiness Graph">
+                                <img class="panel" src="Assets/Cloudiness_vs_Latitude.png" alt="Cloudiness Graph">
                                 </a>
                             </div>
                             <div class="col-6">
                                 <a href="Wind_Speed.html">
-                                    <img class="panel" src="../Assets/Wind_Speed_vs_Latitude.png" alt="Wind Speed Graph">
+                                    <img class="panel" src="Assets/Wind_Speed_vs_Latitude.png" alt="Wind Speed Graph">
                                 </a>
                             </div>
                         </div>
@@ -98,6 +94,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>  
 </body>
 </html>
