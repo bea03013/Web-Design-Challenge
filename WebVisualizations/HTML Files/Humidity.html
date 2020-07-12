@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Bootstrap Visualization Dashboard</title>
+    <title>Humidity</title>
 </head>
 <body>
     <!-- Bootstrap JavaScript -->
@@ -20,7 +20,7 @@
     <!-- Navigation Menu -->
     <div class="navigation">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" style="background-color: #213159;" href="index.html">Latitude</a>
+            <a class="navbar-brand" style="background-color: pink;" href="index.html">Landing Page</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,17 +31,17 @@
                             Plots
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="temp.html">Max Temperature</a>
-                            <a class="dropdown-item" href="humidity.html">Humidity</a>
-                            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                            <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                            <a class="dropdown-item" href="Max_Temp.html">Max Temperature</a>
+                            <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="Wind_Speed.html">Wind Speed</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="comparison.html">Comparison</a>
+                        <a class="nav-link" href="Comparison.html">Comparison</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="data.html">Data</a>
+                        <a class="nav-link" href="Data.html">Data</a>
                     </li>
                 </ul>
             </div>
@@ -56,11 +56,8 @@
                 <div class="box">
                     <h3 class="title">Humidity</h3>
                     <hr>
-                    <img src="Resources/Assets/Images/City_Latitude_vs_Humidity.png" class="vizualization rounded float-left" alt="Humidity Graph">
-                    <p>There seems to be little to no correlation between humidity and Latitude as well as with cloudiness and Latitude. 
-                        The scatter plot visualizations display a considerable amount of heterogeneity even at similar Latitudes. 
-                        Basically, they're all over the map. However, a small grouping of cities exhibited abnormally low humity levels 
-                        (at 0% humidity) in the Northern Hemisphere at around 60° to 75° Latitude.</p>
+                    <img src="../Assets/Humidity_vs_Latitude.png" class="vizualization rounded float-left" alt="Humidity Graph">
+                    <p>There seems to be little to no correlation between humidity and Latitude.</p>
                 </div>
             </div>
             <div class="col-lg-5 col-md-12">
@@ -71,25 +68,25 @@
                     <div class="container">
                         <div class="row" style="padding-bottom: 30px;">
                             <div class="col-6">
-                                <a href="temp.html">
-                                  <img class="panel" src="Resources/Assets/Images/City_Latitude_vs_Max_Temperature.png" alt="Max Temperature Graph">
+                                <a href="Max_Temp.html">
+                                <img class="panel" src="../Assets/Max_Temp_vs_Latitude.png" alt="Max Temperature Graph">
                                 </a>
                             </div>
                             <div class="col-6">
-                                <a href="humidity.html">
-                                    <img class="panel" src="Resources/Assets/Images/City_Latitude_vs_Humidity.png" alt="Humidity Graph">
+                                <a href="Humidity.html">
+                                <img class="panel" src="../Assets/Humidity_vs_Latitude.png" alt="Humidity Graph">
                                 </a>
                             </div>
                         </div>
                         <div class="row" style="padding-bottom: 30px;">
                             <div class="col-6">
-                                <a href="cloudiness.html">
-                                    <img class="panel" src="Resources/Assets/Images/City_Latitude_vs_Cloudiness.png" alt="Cloudiness Graph">
+                                <a href="Cloudiness.html">
+                                <img class="panel" src="../Assets/Cloudiness_vs_Latitude.png" alt="Cloudiness Graph">
                                 </a>
                             </div>
                             <div class="col-6">
-                                <a href="wind_speed.html">
-                                    <img class="panel" src="Resources/Assets/Images/City_Latitude_vs_Wind_Speed.png" alt="Wind Speed Graph">
+                                <a href="Wind_Speed.html">
+                                    <img class="panel" src="../Assets/Wind_Speed_vs_Latitude.png" alt="Wind Speed Graph">
                                 </a>
                             </div>
                         </div>
@@ -98,9 +95,5 @@
             </div>
         </div>
     </div>
-    <!-- Footer -->
-    <footer>
-        <div class="footer">&copy; Copyright Joseph Yon 2019. All Rights Reserved.</div>
-    </footer>
 </body>
 </html>
